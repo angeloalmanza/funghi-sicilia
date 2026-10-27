@@ -1,0 +1,184 @@
+{
+ "_descrizione": "Coppie commestibile <-> tossico. I caratteri discriminanti sono riportati SOLO se presenti nelle fonti; liste vuote = non riportati nelle fonti consultate (non inventati).",
+ "fonti": {
+  "ASL_TOSCANA": {
+   "titolo": "Ispettorato micologico ASL Toscana centro, riportato da La Nazione",
+   "url": "https://www.lanazione.it/cronaca/i-pericoli-della-raccolta-funghi-lasl-mette-in-guardia-sulle-specie-piu-insidiose-quali-sono-e-come-riconoscerle-g6no6d9j",
+   "verificata": true
+  },
+  "ASP_CT_2022": {
+   "titolo": "ASP Catania, SIAN (dr.ssa E. Alonzo), riportato da Quotidiano di Sicilia 20/09/2022",
+   "url": "https://qds.it/intossicazione-funghi-catania-sicilia-specie-pericolose/",
+   "verificata": true
+  },
+  "ASSL_CAGLIARI": {
+   "titolo": "Micologi ASSL Cagliari, riportato da L'Unione Sarda 20/11/2020",
+   "url": "https://www.unionesarda.it/3-minuti-con/i-micologi-della-assl-che-salvano-la-vita-oy59oyd7",
+   "verificata": true
+  },
+  "ATS_INSUBRIA_2024": {
+   "titolo": "ATS Insubria, lettera Prevenzione delle intossicazioni da funghi (16/07/2024)",
+   "url": "https://lonate-pozzolo-api.municipiumapp.it/s3/3643/allegati/allegati-news/ats_insubria-registro_ufficiale-2024-0081536-stamped.pdf",
+   "verificata": true
+  },
+  "AUSL_BO_2013": {
+   "titolo": "AUSL Bologna, Determinazione 1227/2013, elenco 74 domande con risposte per l'esame di micologo/idoneità",
+   "url": "https://www.ausl.bologna.it/servt/dipt/dsp/uo/ian/ia/funghi/allegati/Elenco%20delle%20domande%20con%20risposte.pdf",
+   "verificata": true
+  },
+  "ISS2019": {
+   "titolo": "Epidemiologia delle intossicazioni da funghi, CAV Niguarda 1998-2017 (Bollettino Epidemiologico Nazionale ISS, 2019)",
+   "url": "https://www.epicentro.iss.it/ben/2019/aprile/epidemiologia-intossicazione-funghi",
+   "verificata": true
+  },
+  "MIN2012": {
+   "titolo": "I funghi: guida alla prevenzione delle intossicazioni (F. Assisi, Centro Antiveleni Milano-Niguarda; Ministero della Salute; IZSLER; 2012)",
+   "url": "https://www.farmacia-dstf.unito.it/html/TecnicheErboristiche/Opuscolo_Funghi_2012.pdf",
+   "verificata": true
+  },
+  "NEFRO2023": {
+   "titolo": "Giornale Italiano di Nefrologia 2023 (rassegna sindrome nefrotossica da Amanita)",
+   "url": "https://giornaleitalianodinefrologia.it/wp-content/uploads/sites/3/2023/06/40-03-2023-06.pdf",
+   "verificata": false,
+   "nota": "vista solo come estratto di ricerca, non letta integralmente"
+  }
+ },
+ "coppie": [
+  {
+   "commestibile": "Agaricus campestris / prataioli bianchi (Agaricus spp.)",
+   "pericoloso": "Amanita phalloides",
+   "caratteri_discriminanti": [
+    "Amanita phalloides: presenza contemporanea di volva e anello (la sola presenza dell'anello non basta; il colore verde non è determinante)",
+    "I prataioli A. bisporus e A. campestris NON hanno lamelle bianche",
+    "Se alla base del gambo c'è una volva, osservare il colore delle lamelle"
+   ],
+   "avvertenze": "La forma completamente bianca di A. phalloides è quella più confondibile con i prataioli. Volva e anello possono danneggiarsi o restare nel terreno: raccogliere sempre il fungo intero estraendolo.",
+   "gravita": "mortale",
+   "fonti": [
+    "ASSL_CAGLIARI",
+    "AUSL_BO_2013"
+   ]
+  },
+  {
+   "commestibile": "Agaricus campestris (prataiolo)",
+   "pericoloso": "Agaricus xanthodermus",
+   "caratteri_discriminanti": [
+    "base del gambo che diventa giallo vivo al tatto",
+    "odore sgradevole (acido fenico/inchiostro) soprattutto riscaldato"
+   ],
+   "avvertenze": "ASSL Cagliari: apparentemente identici, riconoscibili solo da occhio allenato. Non tutti i prataioli sono commestibili.",
+   "gravita": "gastrointestinale",
+   "fonti": [
+    "ASL_TOSCANA",
+    "AUSL_BO_2013",
+    "ASSL_CAGLIARI"
+   ]
+  },
+  {
+   "commestibile": "Amanita caesarea (ovolo buono)",
+   "pericoloso": "Amanita phalloides (stadio di ovolo chiuso)",
+   "caratteri_discriminanti": [],
+   "avvertenze": "Allo stadio di ovolo chiuso sono 'praticamente indistinguibili' (ASSL Cagliari). Caratteri distintivi non riportati nelle fonti consultate. Raccolta degli ovuli chiusi di A. caesarea vietata (ATS Insubria).",
+   "gravita": "mortale",
+   "fonti": [
+    "ASSL_CAGLIARI",
+    "ATS_INSUBRIA_2024",
+    "MIN2012"
+   ]
+  },
+  {
+   "commestibile": "Amanita caesarea",
+   "pericoloso": "Amanita muscaria",
+   "caratteri_discriminanti": [
+    "A. muscaria: lamelle, gambo e anello bianchi; cappello rosso-arancio con volva dissociata in 'perle'"
+   ],
+   "avvertenze": "Accostate nella tavola 'Attenti ai sosia' della guida Ministero; caratteri di A. caesarea non descritti nella guida.",
+   "gravita": "panterinica",
+   "fonti": [
+    "MIN2012",
+    "AUSL_BO_2013"
+   ]
+  },
+  {
+   "commestibile": "Pholiota mutabilis (Kuehneromyces mutabilis)",
+   "pericoloso": "Galerina marginata",
+   "caratteri_discriminanti": [],
+   "avvertenze": "Accostate nella tavola 'Attenti ai sosia' della guida Ministero; i caratteri discriminanti non sono riportati nel testo.",
+   "gravita": "mortale",
+   "fonti": [
+    "MIN2012"
+   ]
+  },
+  {
+   "commestibile": "Cantharellus cibarius (gallinaccio/finferlo)",
+   "pericoloso": "Omphalotus olearius (fungo dell'olivo)",
+   "caratteri_discriminanti": [
+    "O. olearius cresce su legno, ceppaie o radici; il finferlo nel terreno",
+    "O. olearius più grande, con lamelle fitte; il finferlo ha pieghe/ripiegature della carne, non lamelle",
+    "O. olearius odore fungino più forte; il finferlo odore fruttato gradevole"
+   ],
+   "avvertenze": "Specie più spesso responsabile dei casi ASL Toscana centro nel 2024.",
+   "gravita": "gastrointestinale grave, spesso con ricovero",
+   "fonti": [
+    "ASL_TOSCANA",
+    "ASSL_CAGLIARI",
+    "AUSL_BO_2013"
+   ]
+  },
+  {
+   "commestibile": "Pleurotus eryngii (fungo di carne / funcia di ferula)",
+   "pericoloso": "Omphalotus olearius",
+   "caratteri_discriminanti": [],
+   "avvertenze": "Confusione per la forma, soprattutto per raccoglitori inesperti (ASSL Cagliari). Caratteri non riportati.",
+   "gravita": "gastrointestinale",
+   "fonti": [
+    "ASSL_CAGLIARI"
+   ]
+  },
+  {
+   "commestibile": "Clitocybe nebularis; prugnoli primaverili; porcini piccoli e chiusi",
+   "pericoloso": "Entoloma sinuatum (= E. lividum, fungo nebbioso)",
+   "caratteri_discriminanti": [
+    "lamelle dal giallastro al grigio"
+   ],
+   "avvertenze": "Altri caratteri non riportati nella fonte.",
+   "gravita": "gastrointestinale",
+   "fonti": [
+    "ASL_TOSCANA",
+    "MIN2012"
+   ]
+  },
+  {
+   "commestibile": "Macrolepiota procera (mazza di tamburo, 'cappiddini')",
+   "pericoloso": "Chlorophyllum molybdites (falsa mazza di tamburo)",
+   "caratteri_discriminanti": [],
+   "avvertenze": "Caso frequente nell'area dell'Etna (Acireale, Cannizzaro). I caratteri distintivi non sono riportati nelle fonti istituzionali consultate: far controllare all'ispettorato.",
+   "gravita": "gastrointestinale con complicanze neurologiche",
+   "fonti": [
+    "ASP_CT_2022"
+   ]
+  },
+  {
+   "commestibile": "Suillellus luridus / Neoboletus erythropus (commestibili solo dopo cottura prolungata, non commercializzabili)",
+   "pericoloso": "Rubroboletus rhodoxanthus / Imperator luteocupreus",
+   "caratteri_discriminanti": [],
+   "avvertenze": "Confusi e venduti con gli stessi nomi dialettali (funci niuri, russeddi, muss'i voi). Boleti con pori rossi o rosa: segnale di dubbio (AUSL Bologna). Serve controllo dell'ispettorato.",
+   "gravita": "gastrointestinale",
+   "fonti": [
+    "ASP_CT_2022",
+    "AUSL_BO_2013"
+   ]
+  },
+  {
+   "commestibile": "Amanita ovoidea",
+   "pericoloso": "Amanita proxima",
+   "caratteri_discriminanti": [],
+   "avvertenze": "Cappello bianco crema in entrambe, usualmente confuse (rassegna nefrologica, non verificata integralmente).",
+   "gravita": "insufficienza renale acuta",
+   "fonti": [
+    "NEFRO2023",
+    "ISS2019"
+   ]
+  }
+ ]
+}

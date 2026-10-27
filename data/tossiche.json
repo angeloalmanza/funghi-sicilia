@@ -1,0 +1,985 @@
+{
+ "_descrizione": "Specie tossiche, mortali e condizionate da fonti istituzionali. gravita: 'mortale' = indicata tra i funghi mortali; 'grave' = sindrome a lunga latenza ad alto rischio per la vita; 'basso_rischio' = sindrome a breve latenza (dicitura della guida: basso rischio per la vita). Nessun dato inventato: i campi assenti nelle fonti sono vuoti o dichiarati non specificati.",
+ "_gerarchia_fonti": "Ministero Salute/CAV Niguarda e ISS sono le fonti primarie; ASP/ASL e AUSL sono istituzionali; la stampa è citata solo quando riporta dichiarazioni di un ente indicato.",
+ "fonti": {
+  "ASL_TOSCANA": {
+   "titolo": "Ispettorato micologico ASL Toscana centro, riportato da La Nazione",
+   "url": "https://www.lanazione.it/cronaca/i-pericoli-della-raccolta-funghi-lasl-mette-in-guardia-sulle-specie-piu-insidiose-quali-sono-e-come-riconoscerle-g6no6d9j",
+   "verificata": true
+  },
+  "ASP_CT_2022": {
+   "titolo": "ASP Catania, SIAN (dr.ssa E. Alonzo), riportato da Quotidiano di Sicilia 20/09/2022",
+   "url": "https://qds.it/intossicazione-funghi-catania-sicilia-specie-pericolose/",
+   "verificata": true
+  },
+  "ASP_CT_AMANITINE": {
+   "titolo": "ASP Catania, Laboratorio di Sanità Pubblica: analisi amanitine (Amanita phalloides, A. verna, Lepiota brunneoincarnata), riferito da stampa locale",
+   "url": null,
+   "verificata": false,
+   "nota": "URL esatto non ricostruito; da verificare"
+  },
+  "ASP_CT_LIVESICILIA": {
+   "titolo": "ASP Catania, consigli per evitare intossicazioni, riportato da LiveSicilia",
+   "url": "https://livesicilia.it/raccolta-funghi-catania-consigli-asp-evitare-intossicazioni/",
+   "verificata": true
+  },
+  "ASSL_CAGLIARI": {
+   "titolo": "Micologi ASSL Cagliari, riportato da L'Unione Sarda 20/11/2020",
+   "url": "https://www.unionesarda.it/3-minuti-con/i-micologi-della-assl-che-salvano-la-vita-oy59oyd7",
+   "verificata": true
+  },
+  "AUSL_BO_2013": {
+   "titolo": "AUSL Bologna, Determinazione 1227/2013, elenco 74 domande con risposte per l'esame di micologo/idoneità",
+   "url": "https://www.ausl.bologna.it/servt/dipt/dsp/uo/ian/ia/funghi/allegati/Elenco%20delle%20domande%20con%20risposte.pdf",
+   "verificata": true
+  },
+  "ISS2019": {
+   "titolo": "Epidemiologia delle intossicazioni da funghi, CAV Niguarda 1998-2017 (Bollettino Epidemiologico Nazionale ISS, 2019)",
+   "url": "https://www.epicentro.iss.it/ben/2019/aprile/epidemiologia-intossicazione-funghi",
+   "verificata": true
+  },
+  "MIN2012": {
+   "titolo": "I funghi: guida alla prevenzione delle intossicazioni (F. Assisi, Centro Antiveleni Milano-Niguarda; Ministero della Salute; IZSLER; 2012)",
+   "url": "https://www.farmacia-dstf.unito.it/html/TecnicheErboristiche/Opuscolo_Funghi_2012.pdf",
+   "verificata": true
+  },
+  "NEFRO2023": {
+   "titolo": "Giornale Italiano di Nefrologia 2023 (rassegna sindrome nefrotossica da Amanita)",
+   "url": "https://giornaleitalianodinefrologia.it/wp-content/uploads/sites/3/2023/06/40-03-2023-06.pdf",
+   "verificata": false,
+   "nota": "vista solo come estratto di ricerca, non letta integralmente"
+  }
+ },
+ "specie": [
+  {
+   "nome_scientifico_fonte": "Amanita phalloides",
+   "categoria": "mortale",
+   "sindrome": "falloidea",
+   "gravita": "mortale",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [
+    "Agaricus (prataioli) nella forma bianca [ASSL Cagliari]",
+    "Amanita caesarea allo stadio di ovolo chiuso, 'praticamente indistinguibile' [ASSL Cagliari]"
+   ],
+   "note": "Il cappello può essere verdastro ma anche completamente bianco. Carattere determinante (AUSL Bologna): presenza contemporanea di volva e anello. La cottura non riduce la tossicità.",
+   "fonti": [
+    "MIN2012",
+    "ISS2019",
+    "ASSL_CAGLIARI",
+    "AUSL_BO_2013",
+    "ASP_CT_AMANITINE"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "lunga: oltre 6 ore (6-20 ore); i sintomi iniziali possono sembrare una gastroenterite",
+   "sintomi": "ripetuti vomito e diarrea con disidratazione, epatite acuta con possibile trapianto di fegato; potenzialmente mortale; può bastare un solo cappello (circa 20 g); tossine (amatossine) resistenti a cottura ed essiccamento",
+   "gbif": {
+    "speciesKey": 5240325,
+    "nome_accettato": "Amanita phalloides",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Amanitaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE (MORTALE)"
+  },
+  {
+   "nome_scientifico_fonte": "Amanita verna",
+   "categoria": "mortale",
+   "sindrome": "falloidea",
+   "gravita": "mortale",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [],
+   "note": "Citata tra i funghi mortali la cui tossicità non è ridotta da cottura o essiccamento. Confronti con commestibili non riportati nelle fonti istituzionali consultate.",
+   "fonti": [
+    "MIN2012",
+    "ASP_CT_AMANITINE"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "lunga: oltre 6 ore (6-20 ore); i sintomi iniziali possono sembrare una gastroenterite",
+   "sintomi": "ripetuti vomito e diarrea con disidratazione, epatite acuta con possibile trapianto di fegato; potenzialmente mortale; può bastare un solo cappello (circa 20 g); tossine (amatossine) resistenti a cottura ed essiccamento",
+   "gbif": {
+    "speciesKey": 5240320,
+    "nome_accettato": "Amanita verna",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Amanitaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE (MORTALE)"
+  },
+  {
+   "nome_scientifico_fonte": "Amanita virosa",
+   "categoria": "mortale",
+   "sindrome": "falloidea",
+   "gravita": "mortale",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [],
+   "note": "Citata tra i funghi mortali la cui tossicità non è ridotta da cottura o essiccamento.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "lunga: oltre 6 ore (6-20 ore); i sintomi iniziali possono sembrare una gastroenterite",
+   "sintomi": "ripetuti vomito e diarrea con disidratazione, epatite acuta con possibile trapianto di fegato; potenzialmente mortale; può bastare un solo cappello (circa 20 g); tossine (amatossine) resistenti a cottura ed essiccamento",
+   "gbif": {
+    "speciesKey": 5240323,
+    "nome_accettato": "Amanita virosa",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Amanitaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE (MORTALE)"
+  },
+  {
+   "nome_scientifico_fonte": "Lepiota josserandii",
+   "categoria": "mortale",
+   "sindrome": "falloidea",
+   "gravita": "mortale",
+   "certezza_sindrome": "genere Lepiota citato tra i mortali; sindrome per specie non attribuita nella guida (amatossine per le Lepiota secondo la guida e ASP Catania)",
+   "sosia_commestibili": [],
+   "note": "Nella guida compare tra le specie responsabili di sindromi a lunga latenza; 'Lepiota specie' è elencato tra i funghi mortali.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "lunga: oltre 6 ore (6-20 ore); i sintomi iniziali possono sembrare una gastroenterite",
+   "sintomi": "ripetuti vomito e diarrea con disidratazione, epatite acuta con possibile trapianto di fegato; potenzialmente mortale; può bastare un solo cappello (circa 20 g); tossine (amatossine) resistenti a cottura ed essiccamento",
+   "gbif": {
+    "speciesKey": 2535445,
+    "nome_accettato": "Lepiota subincarnata",
+    "sinonimo_usato_nella_fonte": "Lepiota josserandii",
+    "tipo_match": "EXACT",
+    "famiglia": "Agaricaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE (MORTALE)"
+  },
+  {
+   "nome_scientifico_fonte": "Lepiota brunneoincarnata",
+   "categoria": "mortale",
+   "sindrome": "falloidea",
+   "gravita": "mortale",
+   "certezza_sindrome": "amatossine, secondo ASP Catania (analisi amanitine); fonte non verificata direttamente",
+   "sosia_commestibili": [],
+   "note": "Segnalata dall'ASP Catania insieme ad A. phalloides e A. verna come specie con amanitine. Riferimento di genere nella guida (Lepiota specie tra i mortali).",
+   "fonti": [
+    "MIN2012",
+    "ASP_CT_AMANITINE"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "lunga: oltre 6 ore (6-20 ore); i sintomi iniziali possono sembrare una gastroenterite",
+   "sintomi": "ripetuti vomito e diarrea con disidratazione, epatite acuta con possibile trapianto di fegato; potenzialmente mortale; può bastare un solo cappello (circa 20 g); tossine (amatossine) resistenti a cottura ed essiccamento",
+   "gbif": {
+    "speciesKey": 2535390,
+    "nome_accettato": "Lepiota brunneoincarnata",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Agaricaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE (MORTALE)"
+  },
+  {
+   "nome_scientifico_fonte": "Galerina marginata",
+   "categoria": "mortale",
+   "sindrome": "falloidea",
+   "gravita": "mortale",
+   "certezza_sindrome": "dedotta dall'elenco per latenza (la guida elenca la specie tra quelle di quella latenza senza attribuire la sindrome specie per specie); la guida la mostra tra le specie a lunga latenza",
+   "sosia_commestibili": [
+    "Pholiota mutabilis (Kuehneromyces mutabilis) [guida Ministero, tavola 'Attenti ai sosia']"
+   ],
+   "note": "Tossicità e sindrome per specie non descritte nel testo della guida; è inclusa tra le specie responsabili di sindromi a lunga latenza e accostata come sosia a Pholiota mutabilis.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "lunga: oltre 6 ore (6-20 ore); i sintomi iniziali possono sembrare una gastroenterite",
+   "sintomi": "ripetuti vomito e diarrea con disidratazione, epatite acuta con possibile trapianto di fegato; potenzialmente mortale; può bastare un solo cappello (circa 20 g); tossine (amatossine) resistenti a cottura ed essiccamento",
+   "gbif": {
+    "speciesKey": 8118872,
+    "nome_accettato": "Galerina marginata",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Hymenogastraceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE (MORTALE)"
+  },
+  {
+   "nome_scientifico_fonte": "Cortinarius orellanus",
+   "categoria": "mortale",
+   "sindrome": "orellanica",
+   "gravita": "mortale",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [],
+   "note": "Nel registro Niguarda 1998-2017: 33 pazienti con insufficienza renale grave e irreversibile. Citato tra i funghi mortali la cui tossicità non è ridotta da cottura.",
+   "fonti": [
+    "MIN2012",
+    "ISS2019"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "lunga: sintomi anche dopo 36 ore, a volte dopo giorni o settimane",
+   "sintomi": "dolori muscolari, cefalea, brividi, inappetenza, poi riduzione dell'urina; insufficienza renale spesso irreversibile con dialisi o trapianto di rene; può non dare sintomi gastrointestinali iniziali",
+   "gbif": {
+    "speciesKey": 2528684,
+    "nome_accettato": "Cortinarius orellanus",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Cortinariaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE (MORTALE)"
+  },
+  {
+   "nome_scientifico_fonte": "Cortinarius speciosissimus",
+   "categoria": "tossico",
+   "sindrome": "orellanica",
+   "gravita": "grave",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [],
+   "note": "Nominato dalla guida insieme a C. orellanus come causa di sindrome orellanica (alto rischio per la vita).",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "lunga: sintomi anche dopo 36 ore, a volte dopo giorni o settimane",
+   "sintomi": "dolori muscolari, cefalea, brividi, inappetenza, poi riduzione dell'urina; insufficienza renale spesso irreversibile con dialisi o trapianto di rene; può non dare sintomi gastrointestinali iniziali",
+   "gbif": {
+    "speciesKey": 2528663,
+    "nome_accettato": "Cortinarius rubellus",
+    "sinonimo_usato_nella_fonte": "Cortinarius speciosissimus",
+    "tipo_match": "EXACT",
+    "famiglia": "Cortinariaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Gyromitra esculenta",
+   "categoria": "tossico",
+   "sindrome": "gyromitrica",
+   "gravita": "grave",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [],
+   "note": "Sindrome rara, dopo ingestioni ripetute e abbondanti.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "lunga: oltre 6 ore, dopo ingestioni ripetute e di quantità notevole (rara)",
+   "sintomi": "sonnolenza, contratture muscolari, anemia emolitica, danno a fegato e reni",
+   "gbif": {
+    "speciesKey": 5258510,
+    "nome_accettato": "Gyromitra esculenta",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Discinaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Gyromitra fastigiata",
+   "categoria": "tossico",
+   "sindrome": "gyromitrica",
+   "gravita": "grave",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [],
+   "note": "Mostrata nella guida accanto a G. esculenta tra le specie a lunga latenza.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "lunga: oltre 6 ore, dopo ingestioni ripetute e di quantità notevole (rara)",
+   "sintomi": "sonnolenza, contratture muscolari, anemia emolitica, danno a fegato e reni",
+   "gbif": {
+    "speciesKey": 5497524,
+    "nome_accettato": "Discina fastigiata",
+    "sinonimo_usato_nella_fonte": "Gyromitra fastigiata",
+    "tipo_match": "EXACT",
+    "famiglia": "Discinaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Amanita proxima",
+   "categoria": "tossico",
+   "sindrome": "nefrotossica (insufficienza renale acuta)",
+   "gravita": "grave",
+   "certezza_sindrome": "esplicita nella fonte (ISS)",
+   "sosia_commestibili": [
+    "Amanita ovoidea (spesso confusa, secondo rassegna nefrologica) [NEFRO2023, non verificata integralmente]"
+   ],
+   "note": "ISS/Niguarda 1998-2017: 5 pazienti con insufficienza renale acuta reversibile e manifestazioni cardio-polmonari severe, latenza lunga (>6 ore). Specie mediterranea.",
+   "fonti": [
+    "ISS2019",
+    "NEFRO2023"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "lunga: oltre 6 ore",
+   "sintomi": "insufficienza renale acuta reversibile con manifestazioni cardio-polmonari severe (ISS)",
+   "gbif": {
+    "speciesKey": 5451653,
+    "nome_accettato": "Amanita proxima",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Amanitaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Amanita muscaria",
+   "categoria": "tossico",
+   "sindrome": "panterinica",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [
+    "Amanita caesarea [guida Ministero, tavola 'Attenti ai sosia']"
+   ],
+   "note": "Lamelle, gambo e anello bianchi; cappello rosso-arancio con volva dissociata in 'perle' (AUSL Bologna). ASSL Cagliari: intossicazione neurotossica anche grave, generalmente non mortale.",
+   "fonti": [
+    "MIN2012",
+    "ISS2019",
+    "AUSL_BO_2013",
+    "ASSL_CAGLIARI"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "breve: da 30 min a 6 ore",
+   "sintomi": "capogiro, barcollamento, euforia, tremori, stato confusionale fino a crisi convulsive con allucinazioni e sopore (acido ibotenico, muscimolo, muscazone)",
+   "gbif": {
+    "speciesKey": 8168319,
+    "nome_accettato": "Amanita muscaria",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Amanitaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Amanita pantherina",
+   "categoria": "tossico",
+   "sindrome": "panterinica",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [],
+   "note": "Citata anche da ASP Catania tra le specie tossiche trovate nei controlli. ASSL Cagliari: intossicazione neurotossica anche grave, generalmente non mortale.",
+   "fonti": [
+    "MIN2012",
+    "ISS2019",
+    "ASP_CT_LIVESICILIA",
+    "ASSL_CAGLIARI"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "breve: da 30 min a 6 ore",
+   "sintomi": "capogiro, barcollamento, euforia, tremori, stato confusionale fino a crisi convulsive con allucinazioni e sopore (acido ibotenico, muscimolo, muscazone)",
+   "gbif": {
+    "speciesKey": 8961574,
+    "nome_accettato": "Amanita pantherina",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Amanitaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Russula emetica",
+   "categoria": "tossico",
+   "sindrome": "gastrointestinale",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [],
+   "note": "Citata espressamente dalla guida tra le principali cause della sindrome gastrointestinale.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "breve: da 30 min a 6 ore (spesso già a fine pasto o entro 3-4 ore)",
+   "sintomi": "nausea, vomito, diarrea, dolori addominali, disidratazione; regredisce in 24-48 ore, spesso serve reintegro di liquidi",
+   "gbif": {
+    "speciesKey": 2551213,
+    "nome_accettato": "Russula emetica",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Russulaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Boletus satanas",
+   "categoria": "tossico",
+   "sindrome": "gastrointestinale",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [],
+   "note": "Citato espressamente dalla guida tra le principali cause della sindrome gastrointestinale. (Per i boleti: pori rossi e colorazione rosa dei tubuli sono segnali di dubbio, AUSL Bologna.)",
+   "fonti": [
+    "MIN2012",
+    "AUSL_BO_2013"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "breve: da 30 min a 6 ore (spesso già a fine pasto o entro 3-4 ore)",
+   "sintomi": "nausea, vomito, diarrea, dolori addominali, disidratazione; regredisce in 24-48 ore, spesso serve reintegro di liquidi",
+   "gbif": {
+    "speciesKey": 7722553,
+    "nome_accettato": "Rubroboletus satanas",
+    "sinonimo_usato_nella_fonte": "Boletus satanas",
+    "tipo_match": "EXACT",
+    "famiglia": "Boletaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Agaricus xanthodermus",
+   "categoria": "tossico",
+   "sindrome": "gastrointestinale",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "dedotta dall'elenco per latenza (la guida elenca la specie tra quelle di quella latenza senza attribuire la sindrome specie per specie)",
+   "sosia_commestibili": [
+    "Agaricus campestris (prataiolo) [ASL Toscana, ASSL Cagliari]"
+   ],
+   "note": "Base del gambo che ingiallisce vivacemente al tocco; odore sgradevole (di acido fenico/inchiostro) soprattutto se riscaldato (ASL Toscana; AUSL Bologna). ASSL Cagliari: apparentemente identico ai prataioli, riconoscibile solo da occhio allenato.",
+   "fonti": [
+    "MIN2012",
+    "ASL_TOSCANA",
+    "ASSL_CAGLIARI",
+    "AUSL_BO_2013"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "breve: da 30 min a 6 ore (spesso già a fine pasto o entro 3-4 ore)",
+   "sintomi": "nausea, vomito, diarrea, dolori addominali, disidratazione; regredisce in 24-48 ore, spesso serve reintegro di liquidi",
+   "gbif": {
+    "speciesKey": 5243412,
+    "nome_accettato": "Agaricus xanthodermus",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Agaricaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Tricholoma pardinum",
+   "categoria": "tossico",
+   "sindrome": "gastrointestinale",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "dedotta dall'elenco per latenza (la guida elenca la specie tra quelle di quella latenza senza attribuire la sindrome specie per specie)",
+   "sosia_commestibili": [],
+   "note": "Elencato dalla guida tra le specie a breve latenza.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "breve: da 30 min a 6 ore (spesso già a fine pasto o entro 3-4 ore)",
+   "sintomi": "nausea, vomito, diarrea, dolori addominali, disidratazione; regredisce in 24-48 ore, spesso serve reintegro di liquidi",
+   "gbif": {
+    "speciesKey": 7242174,
+    "nome_accettato": "Tricholoma pardinum",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Tricholomataceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Entoloma lividum (= E. sinuatum)",
+   "categoria": "tossico",
+   "sindrome": "gastrointestinale",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [
+    "Clitocybe nebularis; più raramente prugnoli primaverili o porcini piccoli e chiusi [ASL Toscana]"
+   ],
+   "note": "Lamelle dal giallastro al grigio (ASL Toscana). Citato dalla guida tra le principali cause della sindrome gastrointestinale; ISS: 6% dei residui analizzati nel registro Niguarda.",
+   "fonti": [
+    "MIN2012",
+    "ISS2019",
+    "ASL_TOSCANA"
+   ],
+   "nomi_locali_da_fonti": [
+    "fungo nebbioso (E. sinuatum)"
+   ],
+   "latenza": "breve: da 30 min a 6 ore (spesso già a fine pasto o entro 3-4 ore)",
+   "sintomi": "nausea, vomito, diarrea, dolori addominali, disidratazione; regredisce in 24-48 ore, spesso serve reintegro di liquidi",
+   "gbif": {
+    "speciesKey": 2539308,
+    "nome_accettato": "Entoloma sinuatum",
+    "sinonimo_usato_nella_fonte": "Entoloma lividum",
+    "tipo_match": "EXACT",
+    "famiglia": "Entolomataceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Omphalotus olearius",
+   "categoria": "tossico",
+   "sindrome": "gastrointestinale",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "dedotta dall'elenco per latenza (la guida elenca la specie tra quelle di quella latenza senza attribuire la sindrome specie per specie); ASSL Cagliari: grave sindrome gastrointestinale",
+   "sosia_commestibili": [
+    "Cantharellus cibarius (gallinaccio/finferlo) [ASL Toscana, ASSL Cagliari]",
+    "Pleurotus eryngii [ASSL Cagliari]"
+   ],
+   "note": "Cresce su legno, ceppaie o radici (il finferlo cresce nel terreno); più grande, lamelle fitte (il finferlo ha pieghe), odore fungino più forte (finferlo: fruttato, gradevole) [ASL Toscana]. Esito per lo più benigno ma richiede ricovero [ASSL Cagliari]. Nel 2024 specie più spesso responsabile nei casi confermati ASL Toscana centro.",
+   "fonti": [
+    "MIN2012",
+    "ISS2019",
+    "ASL_TOSCANA",
+    "ASSL_CAGLIARI"
+   ],
+   "nomi_locali_da_fonti": [
+    "fungo dell'olivo"
+   ],
+   "latenza": "breve: da 30 min a 6 ore (spesso già a fine pasto o entro 3-4 ore)",
+   "sintomi": "nausea, vomito, diarrea, dolori addominali, disidratazione; regredisce in 24-48 ore, spesso serve reintegro di liquidi",
+   "gbif": {
+    "speciesKey": 2538088,
+    "nome_accettato": "Omphalotus olearius",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Omphalotaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Lactarius torminosus",
+   "categoria": "tossico",
+   "sindrome": "breve latenza (sindrome non specificata)",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "non specificata nelle fonti",
+   "sosia_commestibili": [],
+   "note": "Elencato dalla guida tra le specie a breve latenza.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "breve: da 30 min a 6 ore (spesso già a fine pasto o entro 3-4 ore)",
+   "sintomi": "non descritti per questa specie nella guida",
+   "gbif": {
+    "speciesKey": 8122710,
+    "nome_accettato": "Lactarius torminosus",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Russulaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Inocybe fastigiata",
+   "categoria": "tossico",
+   "sindrome": "muscarinica",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "dedotta dall'elenco per latenza (la guida elenca la specie tra quelle di quella latenza senza attribuire la sindrome specie per specie) (la guida cita Inocybe come genere della sindrome muscarinica)",
+   "sosia_commestibili": [],
+   "note": "ISS: Inocybe spp. e 'Clitocybe bianche' insieme 9% dei residui, sindrome colinergica con abbondante sudorazione.",
+   "fonti": [
+    "MIN2012",
+    "ISS2019"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "breve: da 15 a 60 minuti",
+   "sintomi": "cefalea, dolori addominali, ipersalivazione, intensa sudorazione, lacrimazione, tremori, bradicardia; terapia con atropina",
+   "gbif": {
+    "speciesKey": 10846389,
+    "nome_accettato": "Pseudosperma rimosum",
+    "sinonimo_usato_nella_fonte": "Inocybe fastigiata",
+    "tipo_match": "EXACT",
+    "famiglia": "Inocybaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Clitocybe cerussata",
+   "categoria": "tossico",
+   "sindrome": "breve latenza (sindrome non specificata)",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "non specificata nelle fonti",
+   "sosia_commestibili": [],
+   "note": "Elencata dalla guida tra le specie a breve latenza.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "breve: da 30 min a 6 ore (guida)",
+   "sintomi": "non descritti per questa specie nella guida",
+   "gbif": {
+    "speciesKey": 2531103,
+    "nome_accettato": "Clitocybe phyllophila",
+    "sinonimo_usato_nella_fonte": "Clitocybe cerussata",
+    "tipo_match": "EXACT",
+    "famiglia": "Tricholomataceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Hypholoma fasciculare",
+   "categoria": "tossico",
+   "sindrome": "breve latenza (sindrome non specificata)",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "non specificata nelle fonti",
+   "sosia_commestibili": [],
+   "note": "Elencato dalla guida tra le specie a breve latenza.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "breve: da 30 min a 6 ore (guida)",
+   "sintomi": "non descritti per questa specie nella guida",
+   "gbif": {
+    "speciesKey": 3293632,
+    "nome_accettato": "Hypholoma fasciculare",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Strophariaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Clitocybe dealbata",
+   "categoria": "tossico",
+   "sindrome": "muscarinica",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "dedotta dall'elenco per latenza (la guida elenca la specie tra quelle di quella latenza senza attribuire la sindrome specie per specie) (la guida cita Clitocybe come genere della sindrome muscarinica)",
+   "sosia_commestibili": [],
+   "note": "Elencata dalla guida tra le specie a breve latenza.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "breve: da 15 a 60 minuti",
+   "sintomi": "cefalea, dolori addominali, ipersalivazione, intensa sudorazione, lacrimazione, tremori, bradicardia; terapia con atropina",
+   "gbif": {
+    "speciesKey": 2531052,
+    "nome_accettato": "Clitocybe rivulosa",
+    "sinonimo_usato_nella_fonte": "Clitocybe dealbata",
+    "tipo_match": "EXACT",
+    "famiglia": "Tricholomataceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Psilocybe moravica",
+   "categoria": "tossico",
+   "sindrome": "psicodisleptica",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "esplicita nella fonte (generi Psilocybe, Panaeolus, Stropharia)",
+   "sosia_commestibili": [],
+   "note": "",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "breve: entro 1 ora",
+   "sintomi": "disturbi della visione, distorsione di colori e forme, disorientamento, agitazione, aggressività",
+   "gbif": {
+    "speciesKey": 7243143,
+    "nome_accettato": "Psilocybe moravica",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Hymenogastraceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Coprinus atramentarius",
+   "categoria": "tossico",
+   "sindrome": "coprinica",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [],
+   "note": "Tossico solo in associazione ad alcol (AUSL Bologna: esistono funghi non consumabili con bevande alcoliche).",
+   "fonti": [
+    "MIN2012",
+    "AUSL_BO_2013"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": "breve (solo se associata ad alcol)",
+   "sintomi": "con alcol: vasodilatazione cutanea, ipotensione, tachicardia, cefalea; trattamento sintomatico",
+   "gbif": {
+    "speciesKey": 5242740,
+    "nome_accettato": "Coprinopsis atramentaria",
+    "sinonimo_usato_nella_fonte": "Coprinus atramentarius",
+    "tipo_match": "EXACT",
+    "famiglia": "Psathyrellaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Chlorophyllum molybdites",
+   "categoria": "tossico",
+   "sindrome": "gastrointestinale con complicanze neurologiche",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "descritta da ASP Catania come 'intossicazione gastrointestinale a breve latenza con complicanze neurologiche'",
+   "sosia_commestibili": [
+    "Macrolepiota procera (mazza di tamburo, 'cappiddini') [ASP Catania]"
+   ],
+   "note": "Specie presente nell'area dell'Etna: responsabile di numerosi casi in Pronto Soccorso (Acireale, Cannizzaro) negli ultimi anni. Caratteri distintivi non riportati nelle fonti istituzionali consultate: chiedere all'ispettorato.",
+   "fonti": [
+    "ASP_CT_2022"
+   ],
+   "nomi_locali_da_fonti": [
+    "falsa mazza di tamburo"
+   ],
+   "latenza": "breve (ASP Catania)",
+   "sintomi": "gastrointestinali con complicanze neurologiche (ASP Catania)",
+   "gbif": {
+    "speciesKey": 5243168,
+    "nome_accettato": "Chlorophyllum molybdites",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Agaricaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Boletus rhodoxanthus",
+   "categoria": "tossico",
+   "sindrome": "gastrointestinale",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [],
+   "note": "Boleto a pori rossi venduto in Sicilia come 'funci niuri/russeddi/muss'i voi'. Pori rossi: segnale di pericolo (AUSL Bologna).",
+   "fonti": [
+    "ASP_CT_2022",
+    "ASP_CT_LIVESICILIA",
+    "AUSL_BO_2013"
+   ],
+   "nomi_locali_da_fonti": [
+    "russeddi",
+    "funci niuri",
+    "muss'i voi"
+   ],
+   "latenza": "breve: da 30 min a 6 ore (spesso già a fine pasto o entro 3-4 ore)",
+   "sintomi": "nausea, vomito, diarrea, dolori addominali, disidratazione; regredisce in 24-48 ore, spesso serve reintegro di liquidi",
+   "gbif": {
+    "speciesKey": 7487519,
+    "nome_accettato": "Rubroboletus rhodoxanthus",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Boletaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Boletus luteocupreus",
+   "categoria": "tossico",
+   "sindrome": "gastrointestinale",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [],
+   "note": "Boleto a pori rossi venduto in Sicilia con gli stessi nomi dialettali. Pori rossi: segnale di pericolo (AUSL Bologna).",
+   "fonti": [
+    "ASP_CT_2022",
+    "ASP_CT_LIVESICILIA",
+    "AUSL_BO_2013"
+   ],
+   "nomi_locali_da_fonti": [
+    "russeddi",
+    "funci niuri",
+    "muss'i voi"
+   ],
+   "latenza": "breve: da 30 min a 6 ore (spesso già a fine pasto o entro 3-4 ore)",
+   "sintomi": "nausea, vomito, diarrea, dolori addominali, disidratazione; regredisce in 24-48 ore, spesso serve reintegro di liquidi",
+   "gbif": {
+    "speciesKey": 8074593,
+    "nome_accettato": "Imperator luteocupreus",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Boletaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Agaricus bresadolanus",
+   "categoria": "tossico",
+   "sindrome": "non specificata",
+   "gravita": "basso_rischio",
+   "certezza_sindrome": "non specificata nelle fonti",
+   "sosia_commestibili": [
+    "Agaricus (prataioli) commestibili"
+   ],
+   "note": "Citato da ASP Catania tra le specie tossiche trovate nei controlli; sintomi non riportati. Nelle Agaricus attenzione: non tutti i prataioli sono commestibili (AUSL Bologna).",
+   "fonti": [
+    "ASP_CT_LIVESICILIA",
+    "AUSL_BO_2013"
+   ],
+   "nomi_locali_da_fonti": [],
+   "gbif": {
+    "speciesKey": 5243347,
+    "nome_accettato": "Agaricus bresadolanus",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Agaricaceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE"
+  },
+  {
+   "nome_scientifico_fonte": "Tricholoma equestre",
+   "categoria": "vietato_per_legge",
+   "sindrome": "non indicata nelle fonti",
+   "gravita": null,
+   "certezza_sindrome": "non specificata nelle fonti",
+   "sosia_commestibili": [],
+   "note": "Ordinanza ministeriale 20/08/2002: divieto di raccolta, vendita e commercializzazione (citata nell'elenco normativo della guida Ministero). La motivazione non è riportata nella guida.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "gbif": {
+    "speciesKey": 3324883,
+    "nome_accettato": "Tricholoma equestre",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Tricholomataceae"
+   },
+   "consiglio_app": "NON RACCOGLIERE (vietato per legge)"
+  },
+  {
+   "nome_scientifico_fonte": "Armillaria mellea",
+   "categoria": "condizionato",
+   "sindrome": "gastrointestinale se non adeguatamente trattato",
+   "gravita": null,
+   "certezza_sindrome": "esplicita nella fonte",
+   "sosia_commestibili": [],
+   "note": "Prebollitura di almeno 15-20 minuti prima della cottura (guida Ministero); mangiare solo cappelli, i gambi causano vomito e diarrea. ISS: 21% dei casi da singola specie nel registro Niguarda.",
+   "fonti": [
+    "MIN2012",
+    "ISS2019"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": null,
+   "sintomi": "vomito, diarrea, dolori addominali (gambi, cottura insufficiente)",
+   "gbif": {
+    "speciesKey": 2536891,
+    "nome_accettato": "Armillaria mellea",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Physalacriaceae"
+   },
+   "consiglio_app": "SOLO CON CONTROLLO DELL'ISPETTORATO MICOLOGICO E CON COTTURA ADEGUATA"
+  },
+  {
+   "nome_scientifico_fonte": "Amanita vaginata",
+   "categoria": "condizionato",
+   "sindrome": "da cuocere bene (guida)",
+   "gravita": null,
+   "certezza_sindrome": "non specificata nelle fonti",
+   "sosia_commestibili": [],
+   "note": "La guida la elenca tra le specie 'da consumarsi ben cotte'. Amanita senza anello con volva: non confondere con amanite mortali.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": null,
+   "sintomi": "tossici se poco cotti/crudi, secondo la guida",
+   "gbif": {
+    "speciesKey": 5240306,
+    "nome_accettato": "Amanita vaginata",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Amanitaceae"
+   },
+   "consiglio_app": "SOLO CON CONTROLLO DELL'ISPETTORATO MICOLOGICO E CON COTTURA ADEGUATA"
+  },
+  {
+   "nome_scientifico_fonte": "Amanita rubescens",
+   "categoria": "condizionato",
+   "sindrome": "da cuocere bene (guida)",
+   "gravita": null,
+   "certezza_sindrome": "non specificata nelle fonti",
+   "sosia_commestibili": [],
+   "note": "La guida la elenca tra le specie 'da consumarsi ben cotte'.",
+   "fonti": [
+    "MIN2012"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": null,
+   "sintomi": "tossici se poco cotti/crudi, secondo la guida",
+   "gbif": {
+    "speciesKey": 7496350,
+    "nome_accettato": "Amanita rubescens",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Amanitaceae"
+   },
+   "consiglio_app": "SOLO CON CONTROLLO DELL'ISPETTORATO MICOLOGICO E CON COTTURA ADEGUATA"
+  },
+  {
+   "nome_scientifico_fonte": "Boletus luridus",
+   "categoria": "condizionato",
+   "sindrome": "da cuocere bene (guida)",
+   "gravita": null,
+   "certezza_sindrome": "non specificata nelle fonti",
+   "sosia_commestibili": [
+    "Rubroboletus rhodoxanthus / Imperator luteocupreus (stessi nomi dialettali) [ASP Catania]"
+   ],
+   "note": "Commestibile solo dopo cottura prolungata e completa; non commercializzabile (ASP Catania). Specie a pori rossi: serve controllo dell'ispettorato.",
+   "fonti": [
+    "MIN2012",
+    "ASP_CT_2022"
+   ],
+   "nomi_locali_da_fonti": [
+    "russeddi",
+    "funci niuri",
+    "muss'i voi"
+   ],
+   "latenza": null,
+   "sintomi": "tossici se poco cotti/crudi, secondo la guida",
+   "gbif": {
+    "speciesKey": 3355021,
+    "nome_accettato": "Suillellus luridus",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Boletaceae"
+   },
+   "consiglio_app": "SOLO CON CONTROLLO DELL'ISPETTORATO MICOLOGICO E CON COTTURA ADEGUATA"
+  },
+  {
+   "nome_scientifico_fonte": "Boletus erythropus",
+   "categoria": "condizionato",
+   "sindrome": "da cuocere bene (ASP Catania)",
+   "gravita": null,
+   "certezza_sindrome": "non specificata nelle fonti",
+   "sosia_commestibili": [
+    "Rubroboletus rhodoxanthus / Imperator luteocupreus [ASP Catania]"
+   ],
+   "note": "Commestibile solo dopo cottura prolungata e completa; non commercializzabile (ASP Catania). Serve controllo dell'ispettorato.",
+   "fonti": [
+    "ASP_CT_2022"
+   ],
+   "nomi_locali_da_fonti": [
+    "russeddi",
+    "funci niuri",
+    "muss'i voi"
+   ],
+   "latenza": null,
+   "sintomi": "tossici se poco cotti/crudi, secondo la guida",
+   "gbif": {
+    "speciesKey": 9723190,
+    "nome_accettato": "Neoboletus erythropus",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Boletaceae"
+   },
+   "consiglio_app": "SOLO CON CONTROLLO DELL'ISPETTORATO MICOLOGICO E CON COTTURA ADEGUATA"
+  },
+  {
+   "nome_scientifico_fonte": "Clitocybe nebularis",
+   "categoria": "condizionato",
+   "sindrome": "breve latenza (sindrome non specificata); da cuocere bene (guida)",
+   "gravita": null,
+   "certezza_sindrome": "non specificata nelle fonti",
+   "sosia_commestibili": [
+    "Entoloma sinuatum/lividum (sosia pericoloso) [ASL Toscana]"
+   ],
+   "note": "FONTI DISCORDANTI: la guida la elenca sia tra le specie responsabili di intossicazioni (breve latenza) sia tra quelle 'da consumarsi ben cotte'; ASP Catania la cita come tossica; ISS: 3% dei residui analizzati. Trattare con la massima prudenza.",
+   "fonti": [
+    "MIN2012",
+    "ISS2019",
+    "ASP_CT_LIVESICILIA",
+    "ASL_TOSCANA"
+   ],
+   "nomi_locali_da_fonti": [],
+   "latenza": null,
+   "sintomi": "tossici se poco cotti/crudi, secondo la guida",
+   "gbif": {
+    "speciesKey": 2531072,
+    "nome_accettato": "Clitocybe nebularis",
+    "sinonimo_usato_nella_fonte": null,
+    "tipo_match": "EXACT",
+    "famiglia": "Tricholomataceae"
+   },
+   "consiglio_app": "SOLO CON CONTROLLO DELL'ISPETTORATO MICOLOGICO E CON COTTURA ADEGUATA"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "Pleurotus eryngii": [
+  {"nome": "fùnci di ferra (var. ferulae)", "fonte": "https://www.iris.unict.it/retrieve/28a5e8a0-8d2e-42a6-bd4c-f4393bb9b132/tesi%20G.E.%20Vasquez.pdf"},
+  {"nome": "funcia i fella (var. ferulae, Egadi)", "fonte": "https://www.springermedizin.de/resource/supplementary/13002_2021_470_MOESM1_ESM.pdf/19400078"},
+  {"nome": "funcia i pani cauru (var. eryngii, Egadi)", "fonte": "https://www.springermedizin.de/resource/supplementary/13002_2021_470_MOESM1_ESM.pdf/19400078"}
+ ],
+ "Amanita caesarea": [
+  {"nome": "fùnciu d'ovu", "fonte": "https://www.iris.unict.it/retrieve/28a5e8a0-8d2e-42a6-bd4c-f4393bb9b132/tesi%20G.E.%20Vasquez.pdf"}
+ ],
+ "Cantharellus cibarius": [
+  {"nome": "jadduzzi", "fonte": "https://www.iris.unict.it/retrieve/28a5e8a0-8d2e-42a6-bd4c-f4393bb9b132/tesi%20G.E.%20Vasquez.pdf"}
+ ],
+ "Pleurotus opuntiae": [
+  {"nome": "funcia i fucurinia (Egadi)", "fonte": "https://www.springermedizin.de/resource/supplementary/13002_2021_470_MOESM1_ESM.pdf/19400078"}
+ ]
+}

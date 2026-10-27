@@ -1,0 +1,27 @@
+.venv/
+.venv-ml/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+# artefatti pesanti / rigenerabili
+data/model/model.keras
+data/model/*.npz
+data/model/cache.npz
+data/photos/
+FunghiSicilia.apk
+# build e file locali Flutter/Android
+app/build/
+app/.dart_tool/
+app/android/.gradle/
+app/android/.kotlin/
+app/android/local.properties
+app/*.iml
+app/android/*.iml
+# foto con licenza "all rights reserved" (non ridistribuibili)
+app/assets/photos/2594623/inat207317062.webp
+app/assets/photos/7243143/inat448824482.webp
+app/assets/photos/7243143/inat103898373.webp
+data/app_photos/2594623/inat207317062.webp
+data/app_photos/7243143/inat448824482.webp
+data/app_photos/7243143/inat103898373.webp

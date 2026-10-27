@@ -1,0 +1,5 @@
+specie: 1880
+con nome italiano: 97
+con testo Wikipedia it: 352
+con testo Wikipedia en: 812
+con habitat/ecologia: 330

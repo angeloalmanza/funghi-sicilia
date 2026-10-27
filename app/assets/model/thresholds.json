@@ -1,0 +1,28 @@
+{
+ "unknown_below": 0.675,
+ "danger_alert_prob": 0.05,
+ "aggregation": "mean_prob",
+ "calibrated_on": "val",
+ "danger_alert_table(prob, recall_pericolose, falsi_allarmi_commestibili)": [
+  [
+   0.02,
+   0.9776119402985075,
+   0.6282051282051282
+  ],
+  [
+   0.05,
+   0.9552238805970149,
+   0.3952991452991453
+  ],
+  [
+   0.1,
+   0.8470149253731343,
+   0.23504273504273504
+  ],
+  [
+   0.2,
+   0.7276119402985075,
+   0.07478632478632478
+  ]
+ ]
+}

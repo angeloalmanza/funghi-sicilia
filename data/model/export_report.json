@@ -1,0 +1,43 @@
+{
+ "keras_top1": 0.5963673057517659,
+ "f32": {
+  "bytes": 16613460,
+  "top1_test": 0.5963673057517659,
+  "max_abs_diff_vs_keras": 7.808208465576172e-06,
+  "agree_top1_vs_keras": 1.0,
+  "input": [
+   1,
+   224,
+   224,
+   3
+  ],
+  "input_dtype": "float32"
+ },
+ "f16": {
+  "bytes": 8370216,
+  "top1_test": 0.5963673057517659,
+  "max_abs_diff_vs_keras": 0.006470143795013428,
+  "agree_top1_vs_keras": 0.9979818365287588,
+  "input": [
+   1,
+   224,
+   224,
+   3
+  ],
+  "input_dtype": "float32"
+ },
+ "int8dyn": {
+  "bytes": 4692520,
+  "top1_test": 0.591321897073663,
+  "max_abs_diff_vs_keras": 0.21697822213172913,
+  "agree_top1_vs_keras": 0.9303733602421796,
+  "input": [
+   1,
+   224,
+   224,
+   3
+  ],
+  "input_dtype": "float32"
+ },
+ "scelto": "f16"
+}
