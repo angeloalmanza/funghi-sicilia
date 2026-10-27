@@ -200,7 +200,7 @@ Per riaddestrare il modello serve **Python 3.12 + TensorFlow 2.19** (ambiente se
 ## 🚧 Limiti noti e cose da fare
 
 - **Mai provata in bosco su larga scala**: servono errori reali per ritarare soglie e aggiungere foto.
-- Numero **Centro Antiveleni**: è riportato solo quello dell'Ospedale Niguarda di Milano (02 66101029), non confermato dal sito dell'ospedale; nessun centro siciliano verificato.
+- **Centro Antiveleni**: in Sicilia non ce n'è nessuno (secondo il Decreto 28/12/2020, Allegato XI; verificati solo 4 centri su 10, il testo integrale non è stato letto). L'app non riporta numeri di centri: indica il 118, che contatta il centro competente.
 - 4 nomi dell'Allegato I senza corrispondenza GBIF: *Agaricus hortensis*, *Boletus badius*, *B. pinicola*, *B. rufus*. Due varietà con sinonimo dubbio nella checklist.
 - *Psilocybe moravica* usa 10 foto di *P. serbica* (specie affine, solo in training con peso basso); *Volvariella esculenta* ha una sola foto.
 - Circa 35 specie hanno schede senza dati strutturati completi (habitat, cappello, ecc.).
