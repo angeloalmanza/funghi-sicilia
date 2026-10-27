@@ -58,19 +58,17 @@ class EmergencyScreen extends StatelessWidget {
               size: 30,
             ),
             title: const Text(
-              'Centro Antiveleni Niguarda (Milano)',
+              'Centri Antiveleni',
               style: TextStyle(fontWeight: FontWeight.w800),
             ),
             subtitle: Padding(
               padding: const EdgeInsets.only(top: 6),
               child: Text(
-                '02 66101029 · attivo 24 ore su 24, riferimento per le intossicazioni da funghi.\n\n'
-                'Numero confermato da più fonti (ISS Epicentro, Università Cattolica, stampa), non dal sito '
-                'dell\'ospedale: controllalo con una prova prima di partire. Per un\'emergenza chiama il 118.',
+                'In Sicilia non c\'è un Centro Antiveleni. Non cercare un numero: chiama il 118, '
+                'sono gli operatori a contattare il centro competente.',
                 style: TextStyle(color: p.inkSoft, height: 1.35),
               ),
             ),
-            onTap: () => _dial('0266101029'),
           ),
         ),
         const SizedBox(height: 22),
@@ -80,7 +78,7 @@ class EmergencyScreen extends StatelessWidget {
         ),
         const SizedBox(height: 10),
         for (final t in const [
-          'Chiama subito il 118 o il Centro Antiveleni, anche se stai bene: i sintomi di alcune specie '
+          'Chiama subito il 118, anche se stai bene: i sintomi di alcune specie '
               '(es. Amanita phalloides) compaiono dopo 6-24 ore.',
           'Non indurre il vomito e non dare bevande o rimedi casalinghi senza indicazione medica.',
           'Conserva avanzi, scarti di pulizia e vomito per l\'analisi micologica.',
