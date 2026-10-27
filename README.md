@@ -163,7 +163,7 @@ adb install -r build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
 Note:
 - La release è firmata con la chiave **debug**: va bene per uso personale, non per il Play Store.
 - Il diario è in un database separato: reinstallare "sopra" (`install -r`) lo conserva, disinstallare lo cancella.
-- Poche foto con licenza non ridistribuibile non sono incluse nel repository: l'app mostra un segnaposto al loro posto (vedi [Fonti e licenze](#-fonti-e-licenze)).
+- Alcune foto con licenza non ridistribuibile non sono incluse nel repository: l'app mostra un segnaposto al loro posto (vedi [Fonti e licenze](#-fonti-e-licenze)).
 
 ## ♻️ Rigenerare dati e modello
 
@@ -191,11 +191,11 @@ Per riaddestrare il modello serve **Python 3.12 + TensorFlow 2.19** (ambiente se
 **Dati e foto**
 - Tassonomia e osservazioni: [GBIF](https://www.gbif.org) (iNaturalist, Naturgucker e altri contributori).
 - Le foto restano di proprietà dei rispettivi autori, con le licenze originali (in maggioranza **CC BY-NC 4.0**, poi CC BY, CC BY-SA, CC0). Autore, licenza e link originale sono nella tabella `photos` di `app_db.sqlite` e visibili nell'app. Uso **non commerciale**; per riuso rispettare le singole licenze.
-- Tre foto "all rights reserved" sono escluse dal repository.
+- Escluse dal repository (restano nel database con autore e licenza): 3 foto "all rights reserved", 26 foto CC BY-NC-ND (le ho ridimensionate e ricompresse, e la clausola ND vieta le opere derivate) e 7 foto Naturgucker con licenza non chiara ("Copyright by the creator"). Sono nel primo commit della cronologia.
 - Font **Fraunces**: SIL Open Font License 1.1.
 - Modello: EfficientNet-B0 pre-addestrato su ImageNet, poi fine-tuning.
 
-**Codice**: non è stata ancora scelta una licenza (vedi sotto).
+**Codice**: [MIT](LICENSE). La licenza MIT copre solo il codice, non le foto né i testi di legge.
 
 ## 🚧 Limiti noti e cose da fare
 
@@ -205,4 +205,3 @@ Per riaddestrare il modello serve **Python 3.12 + TensorFlow 2.19** (ambiente se
 - *Psilocybe moravica* usa 10 foto di *P. serbica* (specie affine, solo in training con peso basso); *Volvariella esculenta* ha una sola foto.
 - Circa 35 specie hanno schede senza dati strutturati completi (habitat, cappello, ecc.).
 - Solo Android; nessuna build per iOS.
-- Aggiungere una licenza al codice.
